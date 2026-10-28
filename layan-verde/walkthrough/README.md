@@ -45,3 +45,15 @@ So run steps 3–4 in the video studio you already use, uploading the files list
 - `walls[]`: straight segments `a → b`. Each has `openings[]` with `at` (distance from `a`), `w`, and for windows `sill` and `head`.
 - `furniture[]`: boxes `x, y, w, d, h` (with optional `z`), so the video model has scale cues.
 - `camera_path.waypoints[]`: `pos` (where the camera stands), `look` (what it looks at), `hold` (true = slow down and pause here), and `label` (the room name used for stills and clips).
+
+## Sample output (placeholder 2BR)
+
+`sample-2br/` holds a full run on the placeholder plan:
+- `driving.mp4`: 52 s clay walkthrough
+- `stills/`: 8 room holds
+- `clips/`: 7 driving clips of 4.7–11 s
+- `plan.svg` and `plan.png`
+- `shots.json` and `prompts.md`
+- `model.blend`: open it in Blender to adjust
+
+This proves the pipeline end to end. Rerun it on the official plans for real content.

@@ -1,0 +1,132 @@
+{
+  "fps": 24,
+  "resolution": "1280x720",
+  "stills": [
+    {
+      "room": "Entry",
+      "frame": 61,
+      "file": "stills/01_entry.png"
+    },
+    {
+      "room": "Kitchen",
+      "frame": 177,
+      "file": "stills/02_kitchen.png"
+    },
+    {
+      "room": "Dining",
+      "frame": 290,
+      "file": "stills/03_dining.png"
+    },
+    {
+      "room": "Living",
+      "frame": 454,
+      "file": "stills/04_living.png"
+    },
+    {
+      "room": "Terrace view",
+      "frame": 671,
+      "file": "stills/05_terrace-view.png"
+    },
+    {
+      "room": "Great room",
+      "frame": 853,
+      "file": "stills/06_great-room.png"
+    },
+    {
+      "room": "Master bedroom",
+      "frame": 1103,
+      "file": "stills/07_master-bedroom.png"
+    },
+    {
+      "room": "Master view",
+      "frame": 1202,
+      "file": "stills/08_master-view.png"
+    }
+  ],
+  "clips": [
+    {
+      "from": "Entry",
+      "to": "Kitchen",
+      "frames": [
+        49,
+        177
+      ],
+      "seconds": 5.38,
+      "driving_video": "clips/01_entry_to_kitchen.mp4",
+      "start_frame": "stills/01_entry.png",
+      "end_frame": "stills/02_kitchen.png"
+    },
+    {
+      "from": "Kitchen",
+      "to": "Dining",
+      "frames": [
+        165,
+        290
+      ],
+      "seconds": 5.25,
+      "driving_video": "clips/02_kitchen_to_dining.mp4",
+      "start_frame": "stills/02_kitchen.png",
+      "end_frame": "stills/03_dining.png"
+    },
+    {
+      "from": "Dining",
+      "to": "Living",
+      "frames": [
+        278,
+        454
+      ],
+      "seconds": 7.38,
+      "driving_video": "clips/03_dining_to_living.mp4",
+      "start_frame": "stills/03_dining.png",
+      "end_frame": "stills/04_living.png"
+    },
+    {
+      "from": "Living",
+      "to": "Terrace view",
+      "frames": [
+        442,
+        671
+      ],
+      "seconds": 9.58,
+      "driving_video": "clips/04_living_to_terrace-view.mp4",
+      "start_frame": "stills/04_living.png",
+      "end_frame": "stills/05_terrace-view.png"
+    },
+    {
+      "from": "Terrace view",
+      "to": "Great room",
+      "frames": [
+        659,
+        853
+      ],
+      "seconds": 8.12,
+      "driving_video": "clips/05_terrace-view_to_great-room.mp4",
+      "start_frame": "stills/05_terrace-view.png",
+      "end_frame": "stills/06_great-room.png"
+    },
+    {
+      "from": "Great room",
+      "to": "Master bedroom",
+      "frames": [
+        841,
+        1103
+      ],
+      "seconds": 10.96,
+      "driving_video": "clips/06_great-room_to_master-bedroom.mp4",
+      "start_frame": "stills/06_great-room.png",
+      "end_frame": "stills/07_master-bedroom.png"
+    },
+    {
+      "from": "Master bedroom",
+      "to": "Master view",
+      "frames": [
+        1091,
+        1202
+      ],
+      "seconds": 4.67,
+      "driving_video": "clips/07_master-bedroom_to_master-view.mp4",
+      "start_frame": "stills/07_master-bedroom.png",
+      "end_frame": "stills/08_master-view.png"
+    }
+  ]
+}
