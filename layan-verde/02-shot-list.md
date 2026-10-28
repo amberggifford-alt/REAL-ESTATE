@@ -124,3 +124,13 @@ Built from the [property blueprint](01-property-blueprint.md). The spreadsheet v
 A01 → A02 → A05 → B01 → B02 → B04 → C01 → C02 → D01 → D07 → D03 → E01 → E06 → E07 → E10 → E12 → F01 → F03 → G04 → H01 → H02
 
 Every cut gets the disclaimer: *"Images are artist impressions. Specifications, sizes and completion dates are subject to change."*
+
+## Unit tours (E01–E14) via the floor-plan walkthrough
+
+The show unit may not match every unit type, and most interiors aren't built yet. For those, produce sequence E with the [floor-plan → walkthrough pipeline](walkthrough/README.md):
+1. Blender model from the official plan.
+2. One camera line at 1.5 m eye height that slows in every room.
+3. A locked still for each room, using one materials line.
+4. Video clips driven by the Blender move, with start and end frames.
+
+Each room hold maps to an E shot, for example Entry → E01/E04, Living → E04/E07, Terrace view → E06/E12, Master bedroom → E08. Label the results as artist impressions (H02 disclaimer).

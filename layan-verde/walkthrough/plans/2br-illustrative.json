@@ -319,17 +319,17 @@
   "camera_path": {
     "eye_height": 1.5,
     "lens_mm": 18,
-    "move_speed_mps": 0.6,
+    "move_speed_mps": 0.8,
     "hold_seconds": 2.5,
     "waypoints": [
       {
         "label": "Entry",
         "pos": [
-          4.6,
+          5.1,
           -0.6
         ],
         "look": [
-          4.8,
+          5.1,
           6.0
         ],
         "hold": false
@@ -337,7 +337,7 @@
       {
         "label": "Entry",
         "pos": [
-          4.6,
+          5.1,
           1.0
         ],
         "look": [
@@ -373,12 +373,12 @@
       {
         "label": "Living",
         "pos": [
-          4.4,
-          7.4
+          8.0,
+          4.6
         ],
         "look": [
-          6.5,
-          11.5
+          4.5,
+          8.6
         ],
         "hold": true
       },
@@ -395,16 +395,16 @@
         "hold": true
       },
       {
-        "label": "",
+        "label": "Great room",
         "pos": [
           7.6,
           6.0
         ],
         "look": [
-          10.0,
-          3.9
+          5.5,
+          1.0
         ],
-        "hold": false
+        "hold": true
       },
       {
         "label": "",

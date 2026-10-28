@@ -79,7 +79,8 @@ def build_model(plan):
     if "terrace" in plan:
         tr = plan["terrace"]
         box("Terrace", tr["x"], tr["y"], -0.25, tr["w"], tr["d"], 0.2, col)
-        box("Terrace edge", tr["x"], tr["y"] + tr["d"] - 0.1, -0.05, tr["w"], 0.1, 1.0, col)
+        # Glass balustrade: only the top rail is modelled so the view stays open.
+        box("Balustrade rail", tr["x"], tr["y"] + tr["d"] - 0.06, 1.0, tr["w"], 0.06, 0.05, col)
         box("Terrace canopy", tr["x"], tr["y"], h, tr["w"], tr["d"] * 0.6, 0.25, col)
 
     if "pool" in plan:
@@ -106,12 +107,14 @@ def build_model(plan):
     # Generic context: ground and a ring of low hills so window views are not empty.
     box("Ground", -60, -60, -1.2, 140, 140, 0.2, col)
     for k in range(9):
-        ang = math.radians(40 + k * 12)
+        ang = math.radians(30 + k * 15)
         bpy.ops.mesh.primitive_uv_sphere_add(
-            radius=1, location=(6.5 + 70 * math.cos(ang), 10 + 55 * math.sin(ang), -6))
+            segments=64, ring_count=32, radius=1,
+            location=(6.5 + 130 * math.cos(ang), 10 + 110 * math.sin(ang), -14))
         hill = bpy.context.active_object
         hill.name = f"Hill {k}"
-        hill.scale = (18 + 4 * (k % 3), 14, 12 + 3 * (k % 2))
+        hill.scale = (45 + 8 * (k % 3), 30, 24 + 5 * (k % 2))
+        bpy.ops.object.shade_smooth()
         for c in hill.users_collection:
             c.objects.unlink(hill)
         col.objects.link(hill)
@@ -188,6 +191,9 @@ def setup_render(scene, args, last_frame):
         sh.show_shadows = True
         sh.shadow_intensity = 0.35
         scene.display.render_aa = "8"
+        world = bpy.data.worlds.new("Sky")
+        world.color = (0.86, 0.88, 0.9)
+        scene.world = world
     else:
         scene.render.engine = "CYCLES"
         scene.cycles.device = "CPU"
