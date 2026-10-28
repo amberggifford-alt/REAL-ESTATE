@@ -1,0 +1,459 @@
+{
+  "name": "Layan Verde 2BR (ILLUSTRATIVE placeholder, not the official plan)",
+  "note": "Stand-in layout sized to the ~100-168 m2 2BR range. Replace with a trace of the developer's official 2BR plan before anything is published.",
+  "units": "metres",
+  "ceiling_height": 3.0,
+  "wall_thickness": 0.15,
+  "slab": {
+    "x": 0,
+    "y": 0,
+    "w": 13.0,
+    "d": 8.5
+  },
+  "terrace": {
+    "x": 0,
+    "y": 8.5,
+    "w": 13.0,
+    "d": 2.5
+  },
+  "pool": {
+    "x": 9.6,
+    "y": 9.0,
+    "w": 3.0,
+    "d": 1.6,
+    "depth": 1.2
+  },
+  "rooms": [
+    {
+      "name": "Bath 2",
+      "x": 0.0,
+      "y": 0.0,
+      "w": 3.6,
+      "d": 2.6
+    },
+    {
+      "name": "Bedroom 2",
+      "x": 0.0,
+      "y": 2.6,
+      "w": 3.6,
+      "d": 5.9
+    },
+    {
+      "name": "Great room",
+      "x": 3.6,
+      "y": 0.0,
+      "w": 5.4,
+      "d": 8.5
+    },
+    {
+      "name": "Ensuite",
+      "x": 9.0,
+      "y": 0.0,
+      "w": 4.0,
+      "d": 3.0
+    },
+    {
+      "name": "Master bedroom",
+      "x": 9.0,
+      "y": 3.0,
+      "w": 4.0,
+      "d": 5.5
+    }
+  ],
+  "walls": [
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        13,
+        0
+      ],
+      "openings": [
+        {
+          "type": "door",
+          "at": 4.6,
+          "w": 1.0
+        }
+      ]
+    },
+    {
+      "a": [
+        13,
+        0
+      ],
+      "b": [
+        13,
+        8.5
+      ],
+      "openings": [
+        {
+          "type": "window",
+          "at": 4.0,
+          "w": 3.0,
+          "sill": 0.9,
+          "head": 2.6
+        }
+      ]
+    },
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        0,
+        8.5
+      ],
+      "openings": [
+        {
+          "type": "window",
+          "at": 4.0,
+          "w": 2.4,
+          "sill": 0.9,
+          "head": 2.6
+        }
+      ]
+    },
+    {
+      "a": [
+        0,
+        8.5
+      ],
+      "b": [
+        13,
+        8.5
+      ],
+      "openings": [
+        {
+          "type": "glass",
+          "at": 0.4,
+          "w": 2.8,
+          "sill": 0.0,
+          "head": 2.7
+        },
+        {
+          "type": "glass",
+          "at": 3.8,
+          "w": 5.0,
+          "sill": 0.0,
+          "head": 2.8
+        },
+        {
+          "type": "glass",
+          "at": 9.4,
+          "w": 3.2,
+          "sill": 0.0,
+          "head": 2.7
+        }
+      ]
+    },
+    {
+      "a": [
+        3.6,
+        0
+      ],
+      "b": [
+        3.6,
+        8.5
+      ],
+      "openings": [
+        {
+          "type": "door",
+          "at": 0.8,
+          "w": 0.8
+        },
+        {
+          "type": "door",
+          "at": 3.0,
+          "w": 0.9
+        }
+      ]
+    },
+    {
+      "a": [
+        0,
+        2.6
+      ],
+      "b": [
+        3.6,
+        2.6
+      ],
+      "openings": []
+    },
+    {
+      "a": [
+        9.0,
+        0
+      ],
+      "b": [
+        9.0,
+        8.5
+      ],
+      "openings": [
+        {
+          "type": "door",
+          "at": 3.4,
+          "w": 0.9
+        }
+      ]
+    },
+    {
+      "a": [
+        9.0,
+        3.0
+      ],
+      "b": [
+        13,
+        3.0
+      ],
+      "openings": [
+        {
+          "type": "door",
+          "at": 0.5,
+          "w": 0.8
+        }
+      ]
+    }
+  ],
+  "furniture": [
+    {
+      "name": "Kitchen run",
+      "x": 5.8,
+      "y": 0.15,
+      "w": 3.0,
+      "d": 0.65,
+      "h": 0.92
+    },
+    {
+      "name": "Upper cabinets",
+      "x": 5.8,
+      "y": 0.15,
+      "w": 3.0,
+      "d": 0.35,
+      "h": 0.8,
+      "z": 1.5
+    },
+    {
+      "name": "Island",
+      "x": 6.0,
+      "y": 1.7,
+      "w": 2.2,
+      "d": 0.9,
+      "h": 0.92
+    },
+    {
+      "name": "Dining table",
+      "x": 5.4,
+      "y": 3.6,
+      "w": 2.0,
+      "d": 1.0,
+      "h": 0.75
+    },
+    {
+      "name": "Sofa",
+      "x": 4.6,
+      "y": 5.4,
+      "w": 2.6,
+      "d": 0.95,
+      "h": 0.8
+    },
+    {
+      "name": "Coffee table",
+      "x": 5.3,
+      "y": 6.6,
+      "w": 1.2,
+      "d": 0.7,
+      "h": 0.4
+    },
+    {
+      "name": "Media unit",
+      "x": 8.35,
+      "y": 5.2,
+      "w": 0.5,
+      "d": 2.2,
+      "h": 0.5
+    },
+    {
+      "name": "Master bed",
+      "x": 10.6,
+      "y": 3.2,
+      "w": 1.9,
+      "d": 2.2,
+      "h": 0.55
+    },
+    {
+      "name": "Bed 2",
+      "x": 0.9,
+      "y": 2.8,
+      "w": 1.6,
+      "d": 2.1,
+      "h": 0.55
+    },
+    {
+      "name": "Vanity",
+      "x": 9.3,
+      "y": 0.15,
+      "w": 1.6,
+      "d": 0.55,
+      "h": 0.85
+    },
+    {
+      "name": "Sun lounger",
+      "x": 0.4,
+      "y": 9.3,
+      "w": 1.9,
+      "d": 0.7,
+      "h": 0.35
+    },
+    {
+      "name": "Sun lounger",
+      "x": 2.5,
+      "y": 9.3,
+      "w": 1.9,
+      "d": 0.7,
+      "h": 0.35
+    }
+  ],
+  "camera_path": {
+    "eye_height": 1.5,
+    "lens_mm": 18,
+    "move_speed_mps": 0.6,
+    "hold_seconds": 2.5,
+    "waypoints": [
+      {
+        "label": "Entry",
+        "pos": [
+          4.6,
+          -0.6
+        ],
+        "look": [
+          4.8,
+          6.0
+        ],
+        "hold": false
+      },
+      {
+        "label": "Entry",
+        "pos": [
+          4.6,
+          1.0
+        ],
+        "look": [
+          7.0,
+          1.5
+        ],
+        "hold": true
+      },
+      {
+        "label": "Kitchen",
+        "pos": [
+          5.0,
+          2.9
+        ],
+        "look": [
+          7.3,
+          0.6
+        ],
+        "hold": true
+      },
+      {
+        "label": "Dining",
+        "pos": [
+          4.4,
+          4.4
+        ],
+        "look": [
+          8.0,
+          3.5
+        ],
+        "hold": true
+      },
+      {
+        "label": "Living",
+        "pos": [
+          4.4,
+          7.4
+        ],
+        "look": [
+          6.5,
+          11.5
+        ],
+        "hold": true
+      },
+      {
+        "label": "Terrace view",
+        "pos": [
+          6.0,
+          9.6
+        ],
+        "look": [
+          6.5,
+          20.0
+        ],
+        "hold": true
+      },
+      {
+        "label": "",
+        "pos": [
+          7.6,
+          6.0
+        ],
+        "look": [
+          10.0,
+          3.9
+        ],
+        "hold": false
+      },
+      {
+        "label": "",
+        "pos": [
+          8.6,
+          3.9
+        ],
+        "look": [
+          11.5,
+          5.0
+        ],
+        "hold": false
+      },
+      {
+        "label": "",
+        "pos": [
+          9.6,
+          3.9
+        ],
+        "look": [
+          11.5,
+          6.5
+        ],
+        "hold": false
+      },
+      {
+        "label": "Master bedroom",
+        "pos": [
+          10.4,
+          6.9
+        ],
+        "look": [
+          11.0,
+          3.4
+        ],
+        "hold": true
+      },
+      {
+        "label": "Master view",
+        "pos": [
+          11.0,
+          5.6
+        ],
+        "look": [
+          11.0,
+          12.0
+        ],
+        "hold": true
+      }
+    ]
+  }
+}

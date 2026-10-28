@@ -1,0 +1,9 @@
+{
+  "name": "Layan Verde tropical-modern (PROPOSED palette)",
+  "note": "One locked materials line for every room, so all stills read as one home. Proposed from Layan Verde's resort positioning; swap for the developer's finish schedule once you have the brochure.",
+  "materials": "warm honed travertine floors, natural teak joinery, off-white lime-plaster walls, white linen upholstery, woven rattan accents, slim bronze window frames",
+  "light": "soft late-afternoon tropical daylight through floor-to-ceiling glass",
+  "outside": "lush green forested hills and a hazy Andaman Sea horizon beyond the terrace",
+  "camera": "eye height 1.5 m, 18 mm lens, level verticals",
+  "negative": "no people, no text, no logos, no added walls, doors or windows, no changed room proportions, no fisheye distortion, no warping"
+}
