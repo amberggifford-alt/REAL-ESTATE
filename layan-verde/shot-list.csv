@@ -1,0 +1,50 @@
+id,sequence,shot,zone,unit_type,shot_type,camera_move,lens,time_of_day,dur_s,source,priority,notes
+A01,A Location,Andaman coastline establishing - Layan Beach to Bang Tao,Coast west of site,-,Drone wide,Slow push-in from sea toward shore,24mm eq.,Sunset (golden hour),6,Film now,Must,West-facing coast: sun sets over the sea. CAAT/NBTC drone registration required.
+A02,A Location,Layan Beach low pass - sand & surf texture,Layan Beach,-,Drone low,Low lateral track along waterline,24mm eq.,Sunrise,4,Film now,Must,Empty beach at sunrise; no faces needed.
+A03,A Location,Forested hills behind Layan,Hills inland of site,-,Drone wide,Rise-up reveal over treeline,24mm eq.,Morning,5,Film now,Should,Sells the 'forest view' units.
+A04,A Location,Laguna / Bang Tao lifestyle cutaways,Laguna & Bang Tao,-,Gimbal medium,Walk-and-reveal,35mm,Late afternoon,3,Film now,Should,Beach clubs and promenade; only public spaces; release forms for identifiable people.
+A05,A Location,Map graphic - Phuket airport to Layan Verde,-,-,Motion graphic,Animated route line,-,-,5,Graphic,Must,Confirm drive times with developer before publishing.
+B01,B Masterplan,Site top-down - full plot outline,Whole site,-,Drone top-down,Vertical rise 60->120 m,24mm eq.,Midday (hard shadows ok),5,Film now,Must,Today shows construction; overlay masterplan render as a wipe (B02).
+B02,B Masterplan,Masterplan overlay wipe - site to render,Whole site,-,Composite,Match-move wipe from B01 plate,-,-,5,Render/CGI,Must,Needs developer masterplan render & permission.
+B03,B Masterplan,Building labels - Phase 1 A1-A5 then Luxury vs Premium blocks,Whole site,-,Motion graphic,Callouts pop on render,-,-,6,Graphic,Must,Building count differs between sources (13 vs 15); use the developer's current plan.
+B04,B Masterplan,Flythrough - vehicle-free green ground level,Central landscape,-,CGI flythrough,Low glide between buildings,-,-,8,Render/CGI,Must,Core concept: buildings lifted and the ground kept green and car-free.
+C01,C Architecture,Facade detail - elevated buildings & undercroft,Typical building,-,Gimbal low angle,Slow tilt-up from undercroft to roofline,16-24mm,Blue hour,5,Render/CGI (film after handover),Must,Design: 'see but not be seen'.
+C02,C Architecture,Waterfall & stream sequence,Landscape spine,-,Macro + medium,Rack focus water -> building,85mm / 35mm,Morning,6,Render/CGI (film after handover),Must,Developer cites 10+ waterfalls/pools/streams/ponds.
+C03,C Architecture,Tropical planting texture (300+ species),Gardens,-,Macro,Slider push through foliage,100mm macro,Morning after rain,4,Film now (nursery/reference) or post-handover,Should,SHMA landscape. Can stand in with on-island planting.
+C04,C Architecture,Award card - Asia's Best Residential Architecture Design 2026,-,-,Motion graphic,Type-on over C01,-,-,3,Graphic,Should,Award reported by one source; verify wording before use.
+D01,D Amenities,Main lagoon-style pool - hero wide,Central pool,-,Drone / crane,Orbit 90 degrees,24mm eq.,Golden hour,6,Render/CGI (film after handover),Must,
+D02,D Amenities,Pool swimmer underwater/surface,Central pool,-,Waterproof housing,Static split-level,16mm,Midday,3,Render/AI (film after handover),Should,Model release needed.
+D03,D Amenities,Spa - treatment room & sauna/jacuzzi,Spa centre,-,Gimbal,Slow dolly through doorway,35mm,Interior soft light,5,Render/CGI,Must,Developer cites 3 spa centres.
+D04,D Amenities,Fitness centre,Gym,-,Gimbal,Lateral track past equipment,24mm,Morning,3,Render/CGI,Should,Developer cites 5 fitness centres.
+D05,D Amenities,Padel courts,Sports zone,-,Drone top-down,Static top-down with player motion,24mm eq.,Late afternoon,3,Render/AI,Should,3 padel courts per developer.
+D06,D Amenities,Kids club activity,Kids club,-,Handheld,Natural observational,35mm,Daytime,3,Render/AI,Should,Avoid identifiable minors unless guardian release.
+D07,D Amenities,Rooftop bar - sunset,Hotel rooftop,-,Gimbal,Push past bar to sea view,24mm,Sunset,5,Render/CGI,Must,Dusit-operated rooftop bar.
+D08,D Amenities,All-day dining / restaurant,Restaurant,-,Gimbal + macro inserts,Table-top inserts then wide,50mm / 100mm,Lunch,4,Render/AI,Should,
+D09,D Amenities,Co-working space,Co-working,-,Gimbal,Slow push,35mm,Daytime,3,Render/CGI,Could,
+D10,D Amenities,Event lawn / wedding chapel,Event zone,-,Drone,Pull-back reveal,24mm eq.,Golden hour,4,Render/CGI,Could,
+D11,D Amenities,Jogging track & yoga terrace,Landscape,-,Gimbal follow,Follow runner/yoga silhouette,50mm,Sunrise,4,Render/AI,Could,
+D12,D Amenities,Dusit hotel brand moment,Hotel arrival,-,Gimbal,Arrival POV through porte-cochere,24mm,Blue hour,4,Render/CGI,Should,Use Dusit marks only with permission.
+E01,E Unit tours,Studio - door-in POV reveal,Typical floor,Studio ~36-39 m2,Gimbal POV,Walk in from door to window,16mm,Morning (window light),5,Show unit / Render,Must,Open plan: sleep + living + kitchenette.
+E02,E Unit tours,Studio - kitchenette & storage inserts,Typical floor,Studio ~36-39 m2,Macro inserts,Slider,50mm / 100mm,Morning,3,Show unit / Render,Should,Show fittings and finishes.
+E03,E Unit tours,Studio - terrace to view,Typical floor,Studio ~36-39 m2,Gimbal,Push out to balcony,16mm,Golden hour,4,Show unit / Render,Must,Some studios have a terrace; check the unit.
+E04,E Unit tours,1BR - living/kitchen/dining wide,Typical floor,1BR ~54-60 m2,Gimbal,Lateral track,16-24mm,Morning,4,Show unit / Render,Must,
+E05,E Unit tours,1BR - bedroom reveal,Typical floor,1BR ~54-60 m2,Gimbal,Push through bedroom door,24mm,Morning,3,Show unit / Render,Must,
+E06,E Unit tours,1BR pool unit - terrace private pool hero,Ground/feature floor,1BR pool ~97-101 m2,Gimbal/crane,Rise over pool edge to view,16mm,Golden hour,5,Show unit / Render,Must,Private-pool 1BR (listing at 97-101 m2).
+E07,E Unit tours,2BR - flow from entry to living to terrace,Typical floor,2BR ~100-168 m2,Gimbal oner,Single continuous walkthrough,16mm,Late afternoon,8,Show unit / Render,Must,Plan the path on the floor plan first.
+E08,E Unit tours,2BR - master bedroom & ensuite,Typical floor,2BR ~100-168 m2,Gimbal,Slow dolly,24mm,Morning,4,Show unit / Render,Should,
+E09,E Unit tours,2BR - second bedroom / kids room,Typical floor,2BR ~100-168 m2,Static,Locked-off wide,24mm,Daytime,2,Show unit / Render,Could,
+E10,E Unit tours,Penthouse - arrival via private lift,Penthouse,PH 4-5BR ~528-629 m2,Gimbal POV,Lift doors open -> walk in,16mm,Blue hour,5,Render/CGI,Must,Private lift on some layouts per broker; verify.
+E11,E Unit tours,Penthouse - triple-level stair/void,Penthouse,PH 4-5BR ~528-629 m2,Gimbal,Rise up stair through 3 levels,16mm,Daytime,6,Render/CGI,Must,3 levels per developer.
+E12,E Unit tours,Penthouse - rooftop terrace & private pool,Penthouse roof,PH 4-5BR ~528-629 m2,Drone,Reveal over parapet to sea,24mm eq.,Sunset,6,Render/CGI,Must,The penthouse money shot.
+E13,E Unit tours,Penthouse - staff quarters & service flow (B-roll),Penthouse,PH 4-5BR ~528-629 m2,Static,Locked-off,24mm,Daytime,2,Render/CGI,Could,Mention only; don't linger on it.
+E14,E Unit tours,Floor plan animation per unit type,-,All,Motion graphic,Plan draws on then extrudes to 3D,-,-,4,Graphic,Must,Use the developer's official plans; label sizes 'approx.'
+F01,F Lifestyle,Morning coffee on terrace,Unit terrace,Any,Gimbal,Slow push,50mm,Sunrise,3,Show unit / AI,Should,Talent with model release.
+F02,F Lifestyle,Family walk through gardens,Landscape,-,Gimbal follow,Backwards follow,35mm,Late afternoon,4,Render/AI,Should,
+F03,F Lifestyle,Beach sunset walk,Layan Beach,-,Gimbal,Silhouette track,85mm,Sunset,4,Film now,Must,
+F04,F Lifestyle,Remote-work moment,Co-working / unit,Any,Static,Locked-off medium,35mm,Daytime,3,Show unit / AI,Could,
+G01,G Credibility,Construction progress timelapse,Site,-,Static timelapse / drone,Fixed position,24mm,Daily over weeks,6,Film now,Must,Honest progress shot builds trust; repeat each visit.
+G02,G Credibility,Sales gallery / show unit exterior,Sales gallery,-,Gimbal,Walk-in,24mm,Daytime,4,Film now,Must,Get permission from the sales office.
+G03,G Credibility,Material & finish samples,Sales gallery,-,Macro,Slider across samples,100mm macro,Interior,3,Film now,Should,
+G04,G Credibility,Key facts card - developer/architect/operator,-,-,Motion graphic,Type-on,-,-,5,Graphic,Must,VillaCarte / Dewan Architects + Engineers / SHMA / Dusit. Verify before release.
+H01,H Close,Pull-back aerial from rooftop to coastline,Site to sea,-,Drone,Pull-back + rise,24mm eq.,Sunset,6,Film now (plate) + CGI,Must,End on sea + sky for logo space.
+H02,H Close,End card - logo / CTA / disclaimer,-,-,Motion graphic,Fade,-,-,4,Graphic,Must,Disclaimer: 'Renders are artist impressions; specs subject to change.'
